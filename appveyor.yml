@@ -60,9 +60,9 @@ before_build:
 
 # build with MSBuild
 build:
-  project: Build\Catch.sln      # path to Visual Studio solution or project
-  parallel: true                # enable MSBuild parallel builds
-  verbosity: minimal            # MSBuild verbosity level {quiet|minimal|normal|detailed}
+  project: Build\CatchSelfTest.sln      # path to Visual Studio solution or project
+  parallel: true                        # enable MSBuild parallel builds
+  verbosity: minimal                    # MSBuild verbosity level {quiet|minimal|normal|detailed}
 
 test_script:
   - cd c:\projects\catch\Build
