@@ -12,7 +12,7 @@
 #---------------------------------#
 
 # version format
-version: "{build}"
+version: "{build} ${APPVEYOR_REPO_COMMIT}"
 
 
 branches:
