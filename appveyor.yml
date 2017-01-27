@@ -12,7 +12,7 @@
 #---------------------------------#
 
 # version format
-version: "{build} ${APPVEYOR_REPO_COMMIT}"
+version: "{build} $(APPVEYOR_REPO_COMMIT)"
 
 
 branches:
@@ -27,7 +27,6 @@ branches:
 os:
   - Visual Studio 2015
   - Visual Studio 2013
-  - Visual Studio 2012
 # NB: VS2012, VS2010, and VS2008 seem to be not available.
 
 # scripts that are called at very beginning, before repo cloning
