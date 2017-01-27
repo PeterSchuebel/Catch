@@ -65,5 +65,5 @@ build:
   verbosity: minimal                    # MSBuild verbosity level {quiet|minimal|normal|detailed}
 
 test_script:
-  - cd c:\projects\catch\Build
+  - cd Build
   - ctest -V -j 1 -C %CONFIGURATION%
